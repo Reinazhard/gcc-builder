@@ -58,7 +58,7 @@ git config --global user.name "Reinazhard"
 run()
 {
 echo "Starting build!"
-git clone https://github.com/najahiiii/Noob-Script.git -b noob config 
+git clone https://github.com/Reinazhard/Noob-Script.git -b noob config 
 cd config
 mv tc-configs/defconfig_aarch64-elf defconfig 
 ct-ng defconfig
